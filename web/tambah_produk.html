@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFTAR PRODUK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo">
+    </header>
+    <div class="grid-container">
+        <div class="side-bar">
+            <h2 class="title-side">Toko Betamart</h2>
+            <a href="">
+                <div class="side-item active">
+                    <div class="center">
+                        <i class="material-icons">download</i>
+                    </div>
+                    <p>Daftar produk</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="side-item">
+                    <div class="center">
+                        <i class="material-icons">download</i>
+                    </div>
+                    <p>Stok masuk</p>
+                </div>
+            </a>
+            
+            <a href="">
+                <div class="side-item">
+                    <div class="center">
+                        <i class="material-icons">download</i>
+                    </div>
+                    <p>Stok keluar</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="side-item">
+                    <div class="center">
+                        <i class="material-icons">download</i>
+                    </div>
+                    <p>Riwayat</p>
+                </div>
+            </a>
+            
+        </div>
+        <div class="content">
+            <div class="head-content">
+                <div class="d-flex">
+                    <h2 class="m0">Tambah produk baru</h2>
+                    <a href="" class="btn tambah right">
+                        + Tambah Produk
+                    </a>
+                </div>
+            </div>
+            <div class="body-content" style="width:60%;">
+                <form action="" enctype="multipart/form-data">
+                    <h3 style="font-size: 24px;" class="m0">Deskripsi produk</h3>
+                    <hr style="margin-top: 17px;margin-bottom:37px">
+                    <div class="d-flex"  style="margin-bottom:47px">
+                        <div style="width:100%">
+                            <div class="form-inline center-v" style="margin-bottom:18px">
+                                <label for="nama">Nama</label>
+                                <input type="text" id="nama">
+                            </div>
+                            <div class="form-inline center-v" style="margin-bottom:18px">
+                                <label for="harga_beli">Harga beli</label>
+                                <input type="text" id="harga_beli">
+                            </div>
+                            <div class="form-inline center-v">
+                                <label for="harga_jual">Harga jual</label>
+                                <input type="text" id="harga_jual">
+                            </div>
+                        </div>
+                        <div style="margin-left: 20px;" class="center-v">
+                            <img src="img/photo.png" alt="">
+                        </div>
+                    </div>
+                    
+                    
+                    <h3 style="font-size: 24px;" class="m0">Kategori produk</h3>
+                    <hr style="margin-top: 17px;margin-bottom:37px">
+                    <div class="form-inline center-v" style="margin-bottom:18px">
+                        <label for="tipe">Tipe</label>
+                        <select id="tipe">
+                            <option value="">Buku</option>
+                            <option value="">Dapur</option>
+                            <option value="">Elektronik</option>
+                            <option value="">Clothing Brand</option>
+                            <option value="">Film & Musik</option>
+                            <option value="">Kecantikan</option>
+                            <option value="">Kesehatan</option>
+                            <option value="">Komputer dan Laptop</option>
+                            <option value="">Olahraga</option>
+                            <option value="">Rumah Tangga</option>
+                            <option value="">Wedding</option>
+                        </select>
+                    </div>
+                    <div class="form-inline center-v" style="margin-bottom:47px">
+                        <label for="merk">Merk</label>
+                        <input type="text" id="merk">
+                    </div>
+                    <h3 style="font-size: 24px;" class="m0">Jumlah produk</h3>
+                    <hr style="margin-top: 17px;margin-bottom:37px">
+                    <div class="form-inline center-v" style="margin-bottom:18px">
+                        <label for="jumlah">Jumlah</label>
+                        <input type="text" id="jumlah">
+                    </div>
+                    <button class="btn tambah" style="padding: 5px 25px; "><p style="font-size: 20px;" class="m0">Kirim</p></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
